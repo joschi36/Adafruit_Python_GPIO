@@ -56,7 +56,7 @@ def platform_detect():
         pass
     
     # Couldn't figure out the platform, just return unknown.
-    return UNKNOWN
+    return RASPBERRY_PI
 
 
 def pi_revision():
